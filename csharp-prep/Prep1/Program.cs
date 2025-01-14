@@ -11,3 +11,25 @@ class Program
         Console.Write($"Your name is {last}, {first} {last}.");
     }
 }
+
+// //loops
+// static void Week02(){
+//     //while
+//     int count = 0;
+//     While (count <10){
+//         Console.WriteLine($"Count is {count}");
+//         count++;
+//     }
+//     //do while
+//     string name;
+//     do{
+//         Console.WriteLine("Enter name");
+//         name = Console.ReadLine();
+//     } while
+
+//     //for
+//     string[] cars = {"volvo", "bmw", "ford", "mazda"}
+//     foreach (string car in cars){
+//         Console.WriteLine($"{car}");
+//     }
+// }
