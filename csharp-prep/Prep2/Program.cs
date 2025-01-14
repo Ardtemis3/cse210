@@ -6,7 +6,10 @@ class Grade
     {
         Console.Write("What is your grade percent? ");
         string grade = Console.ReadLine();
+        // this will turn a string to an int.
         int gradeNumber = int.Parse(grade);
+        // int gradeNumber = Convert.ToInt32(grade)
+        // That will work as well.
         if (gradeNumber >= 90){
             Console.Write("Your grade is an A. ");
         }
