@@ -1,10 +1,15 @@
 public class Resume{
-    public string _resumeFirstName;
-    public string _resumeLastName;
-    public List<Job> _resumeJobs;
+    public string _resumeName;
+
+    public List<Job> _resumeJobs = new List<Job>();
 
     public void Display(){
-        Console.WriteLine($"Name: {}");
+        Console.WriteLine($"Name: {_resumeName}");
+        Console.WriteLine("Jobs:");
+
+        foreach (Job job in _resumeJobs){
+            job.Display();
+        }
     }
 }
 // Resume myResume = new Resume();

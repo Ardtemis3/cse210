@@ -21,6 +21,9 @@ class Program
         job2.Display();
 
         Resume myResume = new Resume();
-        Console.WriteLine($"{myResume._resumeJobs[0]._jobTitle}");
+        myResume._resumeName = "Kenneth Ard";
+        myResume._resumeJobs.Add(job1);
+        myResume._resumeJobs.Add(job2);
+        myResume.Display();
     }
 }
