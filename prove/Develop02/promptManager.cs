@@ -11,7 +11,7 @@ class PromptManager{
         _prompts.Add("");
     }
 
-    public string RandomPrompt(){
+    public string GetRandomPrompt(){
         int promptIndex = random.Next(_prompts.Count);
         string randomPrompt = _prompts[promptIndex];
         return randomPrompt;

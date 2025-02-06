@@ -1,3 +1,4 @@
+
 class Menu {
 
     public void Display() {
