@@ -7,8 +7,8 @@ class PromptManager{
         _prompts.Add("How did I see the hand of the Lord in my life today?");
         _prompts.Add("What was the strongest emotion I felt today?");
         _prompts.Add("If I had one thing I could do over today, what would it be?");
-        _prompts.Add("");
-        _prompts.Add("");
+        // _prompts.Add("");
+        // _prompts.Add("");
     }
 
     public string GetRandomPrompt(){

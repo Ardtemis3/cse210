@@ -2,5 +2,10 @@ using System;
 
 class Program
 {
-    Scripture scripture = new Scripture();
+    static void Main(){
+        Scripture scripture = new Scripture();
+        Verse verse = new Verse();
+        verse.Load();
+        verse.Display();
+    }
 }
