@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entry>
+    <_date>02/03/2025</_date>
+    <_prompt>What was the best part of my day?</_prompt>
+    <_response>wtjdmjghfhgf</_response>
+  </Entry>
+  <Entry>
+    <_date>02/03/2025</_date>
+    <_prompt>If I had one thing I could do over today, what would it be?</_prompt>
+    <_response>asdf</_response>
+  </Entry>
+  <Entry>
+    <_date>02/03/2025</_date>
+    <_prompt>What was the strongest emotion I felt today?</_prompt>
+    <_response>qwer</_response>
+  </Entry>
+  <Entry>
+    <_date>02/03/2025</_date>
+    <_prompt>What was the best part of my day?</_prompt>
+    <_response>zxcv</_response>
+  </Entry>
+</ArrayOfEntry>

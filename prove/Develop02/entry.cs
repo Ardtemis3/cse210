@@ -1,4 +1,4 @@
-class Entry{
+public class Entry{
     public string _date = "";
 
     public string _prompt = "";
@@ -8,6 +8,6 @@ class Entry{
     public void Display(){
         Console.WriteLine(_prompt);
         Console.WriteLine(_response);
-        Console.WriteLine(_date);
+        Console.WriteLine($"{_date} \n");
     }
 }
