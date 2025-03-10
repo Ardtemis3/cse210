@@ -16,13 +16,13 @@ class Word
             }
         }
         else {
-        System.Console.Write($"{_word} ");
+            System.Console.Write($"{_word} ");
         }
     }
     public bool GetHidden(){
         return _hide;
     }
-    public void IsHidden(){
+    public void Hide(){
         _hide = true;
     }
 }
